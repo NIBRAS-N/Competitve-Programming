@@ -1,4 +1,4 @@
-# Why Usisng dynamic programming?
+# Why Using dynamic programming?
 ---
 <p>To understand the use of Dynamic programming we need to  see a problem  name fibonacci siries. </p>
 To generate fibonacci siries the c++ code is:
