@@ -66,6 +66,6 @@ int main()
 ```
 ## Time Complexity:
 ---
-    Time complexity will be equal to the size of the array.
-    Because we are just filling the array.
+    Time complexity will be equal to the size of the dp array.
+    Because we are just filling the dp array.
 
