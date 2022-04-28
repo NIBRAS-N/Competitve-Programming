@@ -64,3 +64,8 @@ int main()
     return 0;
 }
 ```
+## Time Complexity:
+---
+    Time complexity will be equal to the size of the array.
+    Because we are just filling the array.
+
