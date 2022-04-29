@@ -1,4 +1,4 @@
-# Acoder_C - Vacation
+# Atcoder_C - Vacation
 Problem Link:  
 https://atcoder.jp/contests/dp/tasks/dp_c
 
