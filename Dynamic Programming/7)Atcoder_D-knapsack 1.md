@@ -1,7 +1,7 @@
 # Knapsack 1
 Problem link: https://atcoder.jp/contests/dp/tasks/dp_d
 
-> This is a simple knapsack problem  
+> This is a simple 0/1 knapsack problem  
 
 ## Problem statement briefly in bangla:
 ---
