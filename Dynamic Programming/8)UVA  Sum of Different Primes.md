@@ -11,13 +11,14 @@ https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&
     k =৩ 
     ২+৩+১৯=২৪[২+৩+১৯  যে কথা ৩+২+১৯ একই কথা ]
     ২+৫+১৭=২৪
-    সুতরাং ২ তা উপায়ে ২৪ বানানো যায়. উত্তর হবে ২.
+    সুতরাং ২ টা উপায়ে ২৪ বানানো যায়. উত্তর হবে ২.
 
 ## Approach:
 1. সব ধরণের  possibility  ট্রাই করতে হবে. 
 2. এর জন্য ২-N পর্যন্ত সব ধরণের প্রাইম বের করে রাখতে হবে. 
 3. takng এন্ড not taking এপ্রোচ এপ্লাই করতে হবে. 
 
+## C++ code:
 ```c++
 #include <iostream>
 #include<bits/stdc++.h>
