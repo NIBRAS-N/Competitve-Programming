@@ -46,10 +46,11 @@ ll knapsack(ll cur_item,ll cur_weight){
     ll res=0;
     ll res2=0;
     if(cur_weight+item_weight[cur_item]<=max_weight){
-        //cout<<cur_item<<" "<<cur_weight<<endl;
+        // taking item weight
         res=value[cur_item]+knapsack(cur_item+1,cur_weight+item_weight[cur_item]);
 
     }
+    // not taking item weight.
     res2=knapsack(cur_item+1,cur_weight);
     return dp[cur_item][cur_weight]=max(res,res2);
 }
