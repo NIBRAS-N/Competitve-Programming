@@ -1,3 +1,9 @@
+// A good Implementation Problem
+/**
+    just check all the incresing part
+    track the First increasing point and last increasing point.. 
+    sum of all (last increasing point - first increasing point) is the answer.
+**/
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
