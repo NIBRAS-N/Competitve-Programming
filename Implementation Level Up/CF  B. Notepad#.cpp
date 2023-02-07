@@ -1,3 +1,6 @@
+//https://codeforces.com/problemset/problem/1766/B
+
+
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
