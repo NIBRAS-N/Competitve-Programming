@@ -55,3 +55,50 @@ public:
     }
 };
 ```
+# reverse of a link list:
+
+### Recursive:
+
+![image](https://github.com/NIBRAS-N/Competitive-Programming-From-Scratch/assets/83491751/36c8e75c-ae06-43b5-a22a-a7b343dd1d6e)
+
+```C++
+ ListNode* rev(ListNode* head){
+        if(head==NULL || head->next==NULL) return head;
+
+        ListNode* last = rev(head->next);
+
+        head->next->next = head;
+        head->next = NULL;
+        return last;
+    }
+    ListNode* reverseList(ListNode* head) {
+       
+        return rev(head);
+    }
+```
+
+### iterative
+
+```C++
+ListNode* reverseList(ListNode* head) {
+        if(head==NULL || head->next ==NULL) return head;
+
+        ListNode *prev = NULL;
+        ListNode *curr = head;
+        // cout<<head<<" "<<head->next<<endl;
+        // head=head->next;
+        // cout<<head<<" "<<head->next<<endl;
+        // cout<<curr->next<<endl;
+        // head  = head->next;
+        //  cout<<head<<" "<<curr<<" "<<curr->next<<endl;
+        while(curr!= NULL){
+             ListNode *temp = curr->next;
+             curr->next=prev;
+             prev=curr;
+             curr = temp;
+         }
+         return prev;
+
+        //return rev(head);
+    }
+```
