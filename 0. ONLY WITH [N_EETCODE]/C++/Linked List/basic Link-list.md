@@ -28,6 +28,11 @@ int main(){
 //0x11b7f90
 //2
 ```
+# Corner case in addition and deletion:
+
+- check if deleting or updating the node is out of bound .
+- check if deleting or updating the node is head
+
 # Middle of the Linked List:
 
 ```C++
