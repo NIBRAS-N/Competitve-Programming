@@ -32,7 +32,7 @@ int main(){
 
 - check if deleting or updating the node is out of bound .
 - check if deleting or updating the node is head
-
+- consider the next value
 # Middle of the Linked List:
 
 ```C++
